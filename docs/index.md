@@ -1,10 +1,13 @@
 ---
 home: true
-title: Entry
-#heroImage: https://vuejs.press/images/hero.png
+
+title: Index
+
+heroImage: /images/logo.jpg
+
 actions:
   - text: 系統清單
-    link: /list-instance
+    link: /system-instance
     type: primary
 
   - text: 關於貓咪

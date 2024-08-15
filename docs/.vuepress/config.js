@@ -6,10 +6,10 @@ export default defineUserConfig({
   lang: 'zh-TW',
 
   title: 'CatNest Cloud',
-  description: '貓窩雲系統入口',
+  description: ' ',
 
   theme: defaultTheme({
-    logo: 'images/logo.png',
+    logo: '/images/logo.jpg',
 
     navbar: ['/', '/list-instance'],
   }),
