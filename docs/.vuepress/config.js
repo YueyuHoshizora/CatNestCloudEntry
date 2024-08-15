@@ -11,7 +11,7 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: '/images/logo.jpg',
 
-    navbar: ['/', '/list-instance'],
+    navbar: ['/', '/system-instance'],
   }),
 
   bundler: viteBundler(),

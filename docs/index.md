@@ -1,7 +1,7 @@
 ---
 home: true
 
-title: Index
+title: Entry
 
 heroImage: /images/logo.jpg
 
