@@ -1,0 +1,33 @@
+# node modules
+node_modules
+
+# vscode settings
+.vscode
+
+# MacOS desktop services store
+.DS_Store
+
+# Log files
+*.log
+
+# Meta files
+TODOs.md
+
+# npm lock file
+pnpm-lock.yaml
+
+# Editors
+.idea
+
+# VuePress default temp directory
+docs/.vuepress/.temp
+
+# VuePress default cache directory
+docs/.vuepress/.cache
+
+# VuePress default build output directory
+docs/.vuepress/dist
+
+# Typescript build dist
+packages/@vuepress/shared-utils/lib/
+packages/@vuepress/shared-utils/types/
