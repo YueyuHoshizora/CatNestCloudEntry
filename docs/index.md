@@ -1,18 +1,18 @@
 ---
 home: true
 
-title: Entry
+title: 入口
 
-heroImage: /images/logo.jpg
+# heroImage: /images/logo.jpg
 
-actions:
-  - text: 系統清單
-    link: /system-instance
-    type: primary
+# actions:
+#   - text: 系統清單
+#     link: /system-instance
+#     type: primary
 
-  - text: 關於貓咪
-    link: https://misy.cat/yueyu
-    type: secondary
+#   - text: 關於貓咪
+#     link: https://misy.cat/yueyu
+#     type: secondary
 
 features:
   - title: "沒有貓咪雲端存檔系統"
