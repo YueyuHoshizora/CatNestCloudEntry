@@ -3,17 +3,6 @@ home: true
 
 title: 入口
 
-# heroImage: /images/logo.jpg
-
-# actions:
-#   - text: 系統清單
-#     link: /system-instance
-#     type: primary
-
-#   - text: 關於貓咪
-#     link: https://misy.cat/yueyu
-#     type: secondary
-
 features:
   - title: "沒有貓咪雲端存檔系統"
     details: "如果你對存儲貓咪的照片和影片感到厭倦，這個系統絕對不會幫你保存任何貓咪相關的內容，並且永遠不會自動生成搞笑的貓咪表情包。"

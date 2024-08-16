@@ -9,9 +9,9 @@ export default defineUserConfig({
   description: 'CatNest Cloud',
 
   theme: defaultTheme({
-    logo: '/images/logo.jpg',
+    logo: '/assets/images/logo.jpg',
 
-    navbar: ['/', '/system-instance'],
+    navbar: ['/', '/public-system'],
 
     // 不顯示貢獻者
     contributors: false,
@@ -19,7 +19,7 @@ export default defineUserConfig({
     git: {
       // 顯示更新時區為GMT+8
       timezone: 'Asia/Taipei',
-    }
+    },
   }),
 
   bundler: viteBundler(),
