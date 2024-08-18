@@ -11,7 +11,14 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: '/assets/images/logo.jpg',
 
-    navbar: ['/', '/public-system'],
+    navbar: [
+      '/',
+      '/public-system',
+      {
+        text: 'GitHub',
+        link: 'https://github.com/YueyuHoshizora/CatNestCloudEntry'
+      },
+    ],
 
     // 不顯示貢獻者
     contributors: false,
