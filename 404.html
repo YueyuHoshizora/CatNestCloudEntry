@@ -6,38 +6,38 @@
     <meta name="generator" content="VuePress 2.0.0-rc.15" />
     <style>
       :root {
-        --c-bg: #fff;
+        --vp-c-bg: #fff;
       }
 
-      html.dark {
-        --c-bg: #22272e;
+      [data-theme='dark'] {
+        --vp-c-bg: #22272e;
       }
 
       html,
       body {
-        background-color: var(--c-bg);
+        background-color: var(--vp-c-bg);
       }
     </style>
     <script>
       const userMode = localStorage.getItem('vuepress-color-scheme')
       const systemDarkMode =
-        window.matchMedia &&
-        window.matchMedia('(prefers-color-scheme: dark)').matches
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
 
       if (userMode === 'light') {
         document.documentElement.dataset.theme = 'light'
       } else if (userMode === 'dark' || systemDarkMode) {
-        document.documentElement.classList.toggle('dark', true)
         document.documentElement.dataset.theme = 'dark'
       }
     </script>
     <title>貓窩雲</title><meta name="description" content="CatNest Cloud">
-    <link rel="preload" href="/assets/style-FJlr0g0O.css" as="style"><link rel="stylesheet" href="/assets/style-FJlr0g0O.css">
-    <link rel="modulepreload" href="/assets/app-DRScmety.js"><link rel="modulepreload" href="/assets/404.html-BPGsSKg7.js">
-    <link rel="prefetch" href="/assets/index.html-DvsRbv_Z.js" as="script"><link rel="prefetch" href="/assets/public-system.html-CyPVlyy9.js" as="script">
+    <link rel="preload" href="/assets/style-DVZqAxjP.css" as="style"><link rel="stylesheet" href="/assets/style-DVZqAxjP.css">
+    <link rel="modulepreload" href="/assets/app-CN2Jx8De.js"><link rel="modulepreload" href="/assets/404.html-BEvXuoih.js">
+    <link rel="prefetch" href="/assets/index.html-DDUTqxah.js" as="script"><link rel="prefetch" href="/assets/public-system.html-DpwSRnxG.js" as="script">
   </head>
   <body>
-    <div id="app"><!--[--><div class="vp-theme-container" data-v-59f1623a><main class="page" data-v-59f1623a><div class="theme-default-content" data-v-59f1623a><h1 data-v-59f1623a>404</h1><blockquote data-v-59f1623a>How did we get here?</blockquote><a class="route-link" href="/" data-v-59f1623a>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
-    <script type="module" src="/assets/app-DRScmety.js" defer></script>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-467566a4><main class="page" data-v-467566a4><div class="theme-default-content" vp-content data-v-467566a4><h1 data-v-467566a4>404</h1><blockquote data-v-467566a4>There&#39;s nothing here.</blockquote><a class="route-link" href="/" data-v-467566a4>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-CN2Jx8De.js" defer></script>
   </body>
 </html>
