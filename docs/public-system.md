@@ -39,6 +39,5 @@ title: 公開存取系統
 > 關鍵系統
 
 - [Bastion WebSSH](https://bastion.catnest.cloud/?hostname=192.168.128.1&username=yueyu)
-- [Zabbix](https://zabbix.catnest.cloud)
 - [AdGuard DNS](https://adguard.catnest.cloud)
 - [Nginx Proxy Manager](https://npm.catnest.cloud)
