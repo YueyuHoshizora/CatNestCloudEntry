@@ -14,6 +14,7 @@ export default defineUserConfig({
     navbar: [
       '/',
       '/public-system',
+      '/app-system',
       {
         text: 'GitHub',
         link: 'https://github.com/YueyuHoshizora/CatNestCloudEntry'
