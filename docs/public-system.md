@@ -24,8 +24,6 @@ title: 公開存取系統
   - [Zone 16](https://net16.catnest.cloud)
   - [Zone 18](https://net18.catnest.cloud)
   - [Zone 28](https://net28.catnest.cloud)
-- WAN Interface
-  - [Zone 18 Wan1](https://wan18-1.catnest.cloud)
 
 ## Data Storage
 
