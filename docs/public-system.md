@@ -36,7 +36,11 @@ title: 公開存取系統
 
 > 關鍵系統
 
-- [Uptime](https://uptime.catnest.cloud)
+- [Web SSH](ssh.catnest.cloud)
+- [1Panel](1panel.catnest.cloud)
 - [AdGuard DNS](https://adguard.catnest.cloud)
 - [Nginx Proxy Manager](https://npm.catnest.cloud)
 - [Zabbix](https://zabbix.catnest.cloud)
+
+> 狀態系統
+- [Uptime](https://uptime.catnest.cloud)
