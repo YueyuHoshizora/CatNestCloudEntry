@@ -15,6 +15,7 @@ title: 公開存取系統
 | [Net Zone](#net-zone) | 網路區域 |
 | [Data Storage](#data-storage) | 資料存儲 |
 | [Critical System](#critical-system) | 關鍵系統 |
+| [Status System](#status-system) | 狀態系統 |
 
 ## Net Zone
 
@@ -36,11 +37,17 @@ title: 公開存取系統
 
 > 關鍵系統
 
-- [Web SSH](ssh.catnest.cloud)
-- [1Panel](1panel.catnest.cloud)
+- [Web SSH](https://ssh.catnest.cloud)
+
 - [AdGuard DNS](https://adguard.catnest.cloud)
+- [Public DNS](https://dns.catnest.cloud)
 - [Nginx Proxy Manager](https://npm.catnest.cloud)
+
+- [1Panel](https://1panel.catnest.cloud)
+
 - [Zabbix](https://zabbix.catnest.cloud)
+
+## Status System
 
 > 狀態系統
 - [Uptime](https://uptime.catnest.cloud)
