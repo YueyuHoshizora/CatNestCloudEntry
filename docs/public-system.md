@@ -40,7 +40,6 @@ title: 公開存取系統
 - [Web SSH](https://ssh.catnest.cloud)
 ---
 - [AdGuard DNS](https://adguard.catnest.cloud)
-- [Public DNS](https://dns.catnest.cloud)
 - [Nginx Proxy Manager](https://npm.catnest.cloud)
 ---
 - [1Panel](https://1panel.catnest.cloud)
